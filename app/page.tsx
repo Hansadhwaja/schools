@@ -41,12 +41,8 @@ export default async function HomePage() {
                   {school.address}
                 </p>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-                  {school.city}, {school.state}
+                  {school.city}
                 </p>
-                <div className="mt-auto text-sm text-gray-700 dark:text-gray-300 flex flex-col gap-1">
-                  <span>📞 {school.contact}</span>
-                  <span>✉️ {school.email}</span>
-                </div>
               </div>
             </div>
           ))}
